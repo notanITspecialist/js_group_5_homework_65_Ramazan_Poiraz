@@ -10,22 +10,22 @@ const Navbar = () => {
                     <NavLink tag={Link} to="/">Home</NavLink>
                 </NavItem>
                 <NavItem>
-                    <NavLink tag={Link} to="/page1">Page1</NavLink>
+                    <NavLink tag={Link} to="/pages/page1">Page1</NavLink>
                 </NavItem>
                 <NavItem>
-                    <NavLink tag={Link} to="/page2">Page2</NavLink>
+                    <NavLink tag={Link} to="/pages/page2">Page2</NavLink>
                 </NavItem>
                 <NavItem>
-                    <NavLink tag={Link} to="/page3">Page3</NavLink>
+                    <NavLink tag={Link} to="/pages/page3">Page3</NavLink>
                 </NavItem>
                 <NavItem>
-                    <NavLink tag={Link} to="/page4">Page4</NavLink>
+                    <NavLink tag={Link} to="/pages/page4">Page4</NavLink>
                 </NavItem>
                 <NavItem>
-                    <NavLink tag={Link} to="/page5">Page5</NavLink>
+                    <NavLink tag={Link} to="/pages/page5">Page5</NavLink>
                 </NavItem>
                 <NavItem>
-                    <NavLink tag={Link} to="/admin">Admin</NavLink>
+                    <NavLink tag={Link} to="/pages/admin">Admin</NavLink>
                 </NavItem>
             </Nav>
         </div>

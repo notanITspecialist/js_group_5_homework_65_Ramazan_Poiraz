@@ -12,8 +12,8 @@ function App() {
               <Navbar />
                 <Switch>
                     <Route path='/' exact render={()=><p>HOME PAGE</p>}/>
-                    <Route path='/admin' component={Admin}/>
-                    <Route path='/:page' component={Pages}/>
+                    <Route path='/pages/admin' component={Admin}/>
+                    <Route path='/pages/:page' component={Pages}/>
                 </Switch>
           </Container>
       </BrowserRouter>
