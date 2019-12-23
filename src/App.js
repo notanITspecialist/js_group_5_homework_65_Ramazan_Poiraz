@@ -3,6 +3,7 @@ import { BrowserRouter, Switch, Route,} from "react-router-dom";
 import Pages from "./components/pages/pages";
 import Navbar from "./components/navbar/navbar";
 import Container from "reactstrap/es/Container";
+import Admin from "./components/admin/admin";
 
 function App() {
   return (
@@ -10,7 +11,9 @@ function App() {
           <Container>
               <Navbar />
                 <Switch>
-                  <Route path='/:page' exact component={Pages}/>
+                    <Route path='/' exact render={()=><p>HOME PAGE</p>}/>
+                    <Route path='/admin' component={Admin}/>
+                    <Route path='/:page' component={Pages}/>
                 </Switch>
           </Container>
       </BrowserRouter>

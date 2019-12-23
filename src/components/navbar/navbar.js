@@ -24,6 +24,9 @@ const Navbar = () => {
                 <NavItem>
                     <NavLink tag={Link} to="/page5">Page5</NavLink>
                 </NavItem>
+                <NavItem>
+                    <NavLink tag={Link} to="/admin">Admin</NavLink>
+                </NavItem>
             </Nav>
         </div>
     );
